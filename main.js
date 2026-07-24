@@ -187,7 +187,7 @@ const TOY_REQUIRED_ABILITIES = Object.freeze([
 ]);
 const VIDEO_UNLOCK_ITEM_IDS = new Set(['dingdong', 'hajimi']);
 const LOCKED_SFX_IDS = new Set(['dingdong']);
-const DEBUG_UNLOCK_SFX = false; // 临时调试：发布前改回 false，恢复 Toy 云端锁定。
+const DEBUG_UNLOCK_SFX = true; // 临时调试：发布前改回 false，恢复 Toy 云端锁定。
 let controlsIdleTimer = 0;
 let navigationMuted = false;
 
